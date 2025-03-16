@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    /* Fonts */
+    --body-text-regular: Poppins;
+    --font-roboto: Roboto;
+    
+    /* font sizes */
+    --font-size-xs: 12px;
+    --body-text-regular-size: 14px;
+    --font-size-mini: 15px;
+    --heading-h4-regular-size: 16px;
+    
+    /* Colors */
+    --color-darkslategray-100: #384144;
+    --color-whitesmoke: #f4f4f4;
+    
+    /* Gaps */
+    --gap-3xs: 10px;
+    
+    /* Paddings */
+    --padding-smi: 13px;
+    --padding-xl: 20px;
+    
+    /* Border radiuses */
+    --br-11xs-3: 1.3px;
+    --br-10xs-7: 2.7px;
+    --br-8xs: 5px;
+    
+    /* Figma Variables */
+    
+    /* Color Variables */
+    --foundation-grey-grey-200: #b2b2b2;
+    --foundation-grey-grey-300: #8e8e8e;
+    --foundation-grey-grey-500: #575757;
+    --foundation-grey-grey-800: #303030;
+    --light-gray-0: #fff;
+    --light-gray-11: #000;
+    
+}

@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    /* Fonts */
+    --font-poppins: Poppins;
+    --font-roboto: Roboto;
+    
+    /* font sizes */
+    --font-size-xs: 12px;
+    --font-size-mini: 15px;
+    
+    /* Colors */
+    --color-darkslategray: #384144;
+    --color-deepskyblue: #26a3ea;
+    
+    /* Border radiuses */
+    --br-11xs-3: 1.3px;
+    --br-10xs-7: 2.7px;
+    
+    /* Figma Variables */
+    
+    /* Color Variables */
+    --light-gray-0: #fff;
+    --light-gray-11: #000;
+    
+}

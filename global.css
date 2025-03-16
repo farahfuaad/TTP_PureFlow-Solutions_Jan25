@@ -1,0 +1,16 @@
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+
+:root {
+  
+  /* Fonts */
+  --font-poppins: Poppins;
+  
+  /* Colors */
+  --color-deepskyblue: #26a3ea;
+  
+}

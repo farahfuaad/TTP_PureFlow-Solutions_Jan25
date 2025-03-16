@@ -1,0 +1,289 @@
+.border {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 2.67px;
+    border: 1px solid var(--color-darkslategray);
+    box-sizing: border-box;
+    width: 22px;
+    height: 11.3px;
+    opacity: 0.35;
+    mix-blend-mode: normal;
+}
+.cap-icon {
+    position: absolute;
+    top: 3.67px;
+    left: 23px;
+    width: 1.3px;
+    height: 4px;
+    opacity: 0.4;
+    mix-blend-mode: normal;
+}
+.capacity {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 1.33px;
+    background-color: var(--color-darkslategray);
+    width: 18px;
+    height: 7.3px;
+}
+.battery {
+    position: absolute;
+    top: 17.33px;
+    left: 336.33px;
+    width: 24.3px;
+    height: 11.3px;
+}
+.wifi-icon {
+    position: relative;
+    width: 15.3px;
+    height: 11px;
+}
+.cellular-connection-icon {
+    position: relative;
+    width: 17px;
+    height: 10.7px;
+}
+.time {
+    position: absolute;
+    top: 13px;
+    left: 21px;
+    letter-spacing: -0.24px;
+    line-height: 20px;
+    font-weight: 600;
+    display: inline-block;
+    width: 54px;
+}
+.statusbar {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.header {
+    position: absolute;
+    height: 5.13%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 94.87%;
+    left: 0%;
+}
+.group-icon {
+    position: absolute;
+    height: 2.14%;
+    width: 5.33%;
+    top: 8.52%;
+    right: 84.8%;
+    bottom: 89.35%;
+    left: 9.87%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.menu-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.1);
+    background-color: var(--light-gray-0);
+}
+.home-1-icon {
+    position: absolute;
+    height: 55.81%;
+    width: 67.94%;
+    top: 0%;
+    right: 14.98%;
+    bottom: 44.19%;
+    left: 17.08%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.home1 {
+    position: absolute;
+    top: 62.79%;
+    left: 0%;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+    font-weight: 500;
+}
+.home {
+    position: absolute;
+    height: 100%;
+    width: 11.76%;
+    top: 0%;
+    right: 88.24%;
+    bottom: 0%;
+    left: 0%;
+}
+.setting-icon {
+    position: absolute;
+    height: 55.81%;
+    width: 58.54%;
+    top: 0%;
+    right: 19.51%;
+    bottom: 44.19%;
+    left: 21.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.setting1 {
+    position: absolute;
+    top: 62.79%;
+    left: 0%;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+}
+.setting {
+    position: absolute;
+    height: 100%;
+    width: 14.19%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 85.81%;
+    cursor: pointer;
+    color: var(--light-gray-11);
+}
+.home-parent {
+    position: absolute;
+    height: 56.58%;
+    width: 77.07%;
+    top: 19.74%;
+    right: 10.4%;
+    bottom: 23.68%;
+    left: 12.53%;
+}
+.menu {
+    position: absolute;
+    height: 43.43%;
+    width: 100%;
+    top: 30.86%;
+    right: 0%;
+    bottom: 25.71%;
+    left: 0%;
+}
+.home2 {
+    position: absolute;
+    height: 100%;
+    width: 11.76%;
+    top: 0%;
+    right: 88.24%;
+    bottom: 0%;
+    left: 0%;
+    cursor: pointer;
+}
+.setting2 {
+    position: absolute;
+    height: 100%;
+    width: 14.19%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 85.81%;
+    cursor: pointer;
+}
+.menu1 {
+    position: absolute;
+    height: 43.43%;
+    width: 100%;
+    top: 30.86%;
+    right: 0%;
+    bottom: 25.71%;
+    left: 0%;
+    color: var(--light-gray-11);
+}
+.blue-modern-water-company-logo {
+    position: absolute;
+    width: 46.67%;
+    top: 0px;
+    right: 26.67%;
+    left: 26.67%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 175px;
+    object-fit: cover;
+}
+.menu-bar {
+    position: absolute;
+    height: 20.42%;
+    width: 100%;
+    top: 79.58%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    font-size: var(--font-size-xs);
+    color: var(--color-deepskyblue);
+    font-family: var(--font-roboto);
+}
+.water-animation-icon {
+    position: absolute;
+    height: 29.99%;
+    width: 68.53%;
+    top: 27.3%;
+    right: 15.2%;
+    bottom: 42.71%;
+    left: 16.27%;
+    border-radius: 677.63px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.todays-water-temperature {
+    position: absolute;
+    top: 14.82%;
+    left: 25.07%;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    font-weight: 500;
+    background: linear-gradient(#9fa4a9, #9fa4a9), #9fa4a9;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+.c {
+    position: absolute;
+    height: 3.97%;
+    width: 38.13%;
+    top: 67.44%;
+    left: 30.93%;
+    font-size: 64px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--color-deepskyblue);
+    text-align: left;
+    display: inline-block;
+}
+.component-7 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 857px;
+}
+.temperature-page {
+    width: 100%;
+    position: relative;
+    background-color: var(--light-gray-0);
+    height: 812px;
+    text-align: center;
+    font-size: var(--font-size-mini);
+    color: var(--color-darkslategray);
+    font-family: var(--font-poppins);
+}
+

@@ -1,0 +1,25 @@
+<svg width="257" height="57" viewBox="0 0 257 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="series 3 Graph">
+<ellipse id="Ellipse 50" cx="1.94178" cy="44.3634" rx="1.18909" ry="1.03354" fill="#2B3695"/>
+<ellipse id="Ellipse 51" cx="24.9308" cy="1.64365" rx="1.18909" ry="1.03354" fill="#2B3695"/>
+<ellipse id="Ellipse 52" cx="47.9198" cy="34.717" rx="1.18909" ry="1.03354" fill="#2B3695"/>
+<ellipse id="Ellipse 53" cx="93.8981" cy="1.29911" rx="1.18909" ry="1.03354" fill="#2B3695"/>
+<ellipse id="Ellipse 54" cx="116.887" cy="43.6744" rx="1.18909" ry="1.03354" fill="#2B3695"/>
+<ellipse id="Ellipse 55" cx="139.877" cy="33.6835" rx="1.18909" ry="1.03354" fill="#2B3695"/>
+<ellipse id="Ellipse 56" cx="162.866" cy="12.3236" rx="1.18909" ry="1.03354" fill="#2B3695"/>
+<ellipse id="Ellipse 57" cx="186.251" cy="33.339" rx="1.18909" ry="1.03354" fill="#2B3695"/>
+<ellipse id="Ellipse 58" cx="208.844" cy="22.659" rx="1.18909" ry="1.03354" fill="#2B3695"/>
+<ellipse id="Ellipse 59" cx="231.833" cy="55.0434" rx="1.18909" ry="1.03354" fill="#2B3695"/>
+<ellipse id="Ellipse 60" cx="255.218" cy="1.64365" rx="1.18909" ry="1.03354" fill="#2B3695"/>
+<line id="Line 99" y1="-0.5" x2="48.8163" y2="-0.5" transform="matrix(0.47093 -0.88217 0.927417 0.37403 1.94165 44.708)" stroke="#2B3695"/>
+<line id="Line 103" y1="-0.5" x2="25.2055" y2="-0.5" transform="matrix(0.912065 -0.410046 0.511387 0.85935 116.887 44.0189)" stroke="#2B3695"/>
+<line id="Line 101" y1="-0.5" x2="56.6378" y2="-0.5" transform="matrix(0.811793 -0.583945 0.689563 0.724226 47.9199 34.717)" stroke="#2B3695"/>
+<line id="Line 104" y1="-0.5" x2="31.0914" y2="-0.5" transform="matrix(0.726655 -0.687003 0.781215 0.624263 140.273 33.6835)" stroke="#2B3695"/>
+<line id="Line 108" y1="-0.5" x2="58.6117" y2="-0.5" transform="matrix(0.39899 -0.916955 0.949987 0.31229 231.833 55.3879)" stroke="#2B3695"/>
+<line id="Line 106" y1="-0.5" x2="25.139" y2="-0.5" transform="matrix(0.898712 -0.43854 0.542561 0.840016 186.251 33.6835)" stroke="#2B3695"/>
+<line id="Line 100" y1="-0.5" x2="40.2784" y2="-0.5" transform="matrix(0.570755 0.82112 -0.885349 0.464927 24.9309 1.64365)" stroke="#2B3695"/>
+<line id="Line 102" y1="-0.5" x2="48.5127" y2="-0.5" transform="matrix(0.473878 0.88059 -0.926368 0.37662 93.8982 1.29913)" stroke="#2B3695"/>
+<line id="Line 105" y1="-0.5" x2="30.6222" y2="-0.5" transform="matrix(0.73779 0.67503 -0.771097 0.636717 163.262 12.6681)" stroke="#2B3695"/>
+<line id="Line 107" y1="-0.5" x2="39.996" y2="-0.5" transform="matrix(0.574785 0.818304 -0.883331 0.46875 208.844 23.0035)" stroke="#2B3695"/>
+</g>
+</svg>
