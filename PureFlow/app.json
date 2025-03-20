@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "mobile-app",
-    "slug": "mobile-app",
+    "name": "PureFlow",
+    "slug": "PureFlow",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true,
-      "icon": "./assets/images/icon.png"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
