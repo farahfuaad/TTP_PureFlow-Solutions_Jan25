@@ -1,7 +1,5 @@
 import * as React from "react";
 import {Image, StyleSheet, View, Text, Pressable} from "react-native";
-import Maskgroup from "../assets/mask-group.svg"
-import Vector5 from "../assets/vector-5.svg"
 import Hiconboldnotification3 from "../assets/hicon--bold--notification-3.svg"
 import Ellipse1 from "../assets/ellipse-1.svg"
 
@@ -10,7 +8,6 @@ const Component = () => {
   	return (
     		<View style={styles.component1}>
       			<View style={styles.maskGroupParent}>
-        				<Maskgroup style={[styles.maskGroupIcon, styles.iconLayout]} />
         				<View style={styles.groupChild} />
         				<Text style={styles.waterQualityOver}>Water Quality Over Time</Text>
         				<View style={[styles.groupItem, styles.groupChildPosition5]} />
@@ -26,7 +23,6 @@ const Component = () => {
         				<View style={[styles.groupChild8, styles.groupChildPosition5]} />
         				<View style={[styles.groupChild9, styles.groupChildPosition4]} />
         				<View style={[styles.groupChild10, styles.groupChildPosition5]} />
-        				<Vector5 style={[styles.vectorIcon, styles.iconLayout]} />
       			</View>
       			<Text style={styles.johnDoe}>John Doe</Text>
       			<View style={styles.roundedIcon}>
