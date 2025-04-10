@@ -1,8 +1,7 @@
-/**
-import * as React from "react";
+/**import * as React from "react";
 import {Image, StyleSheet, Pressable, View, Text} from "react-native";
-import Home1 from "../assets/home-1.svg"
-import Setting from "../assets/setting.svg"
+import Home1 from "../../assets/home 1.svg"
+import Setting from "../../assets/settings.svg"
 import Home11 from "../assets/home-11.svg"
 import Setting1 from "../assets/setting1.svg"
 import Useroutline from "../assets/user-outline.svg"
@@ -391,5 +390,4 @@ const styles = StyleSheet.create({
   	}
 });
 
-export default Component;
-**/
+export default Component;**/

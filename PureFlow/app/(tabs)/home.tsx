@@ -1,7 +1,7 @@
 import * as React from "react";
 import {Image, StyleSheet, View, Text, Pressable} from "react-native";
-import Hiconboldnotification3 from "../assets/hicon--bold--notification-3.svg"
-import Ellipse1 from "../assets/ellipse-1.svg"
+import { useNavigation } from '@react-navigation/native';
+import Ellipse1 from "../../assets/Ellipse 1.svg"
 
 const Component = () => {
   	
@@ -26,7 +26,6 @@ const Component = () => {
       			</View>
       			<Text style={styles.johnDoe}>John Doe</Text>
       			<View style={styles.roundedIcon}>
-        				<Hiconboldnotification3 style={[styles.hiconBoldNotification3, styles.hiconLayout]} width={20} height={20} />
         				<Ellipse1 style={styles.roundedIconChild} width={10} height={10} />
       			</View>
       			<Pressable style={[styles.today, styles.todayShadowBox1]} onPress={()=>{}}>
@@ -39,7 +38,9 @@ const Component = () => {
         				<Text style={[styles.ppm, styles.ntuTypo]}>330 ppm</Text>
         				<View style={[styles.hiconBoldEdit2, styles.hiconLayout]} />
       			</Pressable>
-      			<Pressable style={[styles.today2, styles.todayShadowBox]} onPress={()=>{}}>
+      			<Pressable style={[styles.today2, styles.todayShadowBox]} onPress={()=>{
+					navigation.navigate('pH');
+				}}>
         				<Text style={[styles.turbidity, styles.turbidityTypo]}>PH Level</Text>
         				<Text style={[styles.text, styles.cTypo]}>7.2</Text>
         				<View style={[styles.hiconBoldEdit2, styles.hiconLayout]} />

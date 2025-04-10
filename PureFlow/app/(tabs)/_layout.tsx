@@ -1,7 +1,7 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
 import { Platform, TouchableOpacity, Pressable } from 'react-native';
-import { NavigationProp } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 
 import { HapticTab } from '@/components/HapticTab';
 import { IconSymbol } from '@/components/ui/IconSymbol';
@@ -9,12 +9,9 @@ import TabBarBackground from '@/components/ui/TabBarBackground';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
-type TabLayoutProps = {
-  navigation: NavigationProp<any>;
-};
-
-export default function TabLayout({ navigation }: TabLayoutProps) {
+export default function TabLayout() {
   const colorScheme = useColorScheme();
+  const navigation = useNavigation();
 
   return (
     <Tabs
@@ -39,7 +36,7 @@ export default function TabLayout({ navigation }: TabLayoutProps) {
             <Pressable
               {...props}
               onPress={() => {
-                navigation.navigate('Home');
+                navigation.navigate('home');
               }}
             >
               {props.children}

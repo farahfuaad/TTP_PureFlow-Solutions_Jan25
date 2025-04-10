@@ -1,10 +1,8 @@
-/**import * as React from "react";
+import * as React from "react";
 import {Image, StyleSheet, Pressable, View, Text} from "react-native";
-import Home1 from "../assets/home-1.svg"
-import Setting from "../assets/setting.svg"
-import Home11 from "../assets/home-11.svg"
-import Setting1 from "../assets/setting1.svg"
-import Group2 from "../assets/group-2.svg"
+import Home1 from "../../assets/home 1.svg"
+import Setting from "../../assets/settings.svg"
+import Group2 from "../../assets/Group 2.svg"
 
 const PHLevelPage = () => {
   	
@@ -24,19 +22,6 @@ const PHLevelPage = () => {
               							</View>
               							<Pressable style={[styles.setting, styles.c25Position]} onPress={()=>{}}>
                 								<Setting style={[styles.settingIcon, styles.iconPosition]} />
-                								<Text style={[styles.setting1, styles.home3Position]}>Setting</Text>
-              							</Pressable>
-            						</View>
-          					</View>
-          					<View style={styles.menu}>
-            						<View style={styles.menuShadowBox} />
-            						<View style={styles.homeParent}>
-              							<Pressable style={[styles.home, styles.c25Position]} onPress={()=>{}}>
-                								<Home11 style={[styles.home1Icon, styles.iconPosition]} />
-                								<Text style={[styles.home3, styles.home3Position]}>Home</Text>
-              							</Pressable>
-              							<Pressable style={[styles.setting, styles.c25Position]} onPress={()=>{}}>
-                								<Setting1 style={[styles.settingIcon, styles.iconPosition]} />
                 								<Text style={[styles.setting1, styles.home3Position]}>Setting</Text>
               							</Pressable>
             						</View>
@@ -574,4 +559,4 @@ const styles = StyleSheet.create({
   	}
 });
 
-export default PHLevelPage;**/
+export default PHLevelPage;
